@@ -51,7 +51,7 @@ The codebase was validated using automated JUnit 5 test suites:
     ├── DataNodeTest.java
     ├── HeaderNodeTest.java
     └── SparseMatrixTest.java
-\`\`\`
+```
 
 ## How to Run
 
