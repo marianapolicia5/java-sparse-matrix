@@ -57,41 +57,41 @@ The codebase was validated using automated JUnit 5 test suites:
 
 ### Compilation
 From the project root:
-\`\`\`bash
+```bash
 javac -d bin src/org/*.java
-\`\`\`
+```
 
 ### Execution
-\`\`\`bash
+```bash
 java -cp bin org.SparseMatrix
-\`\`\`
+```
 
 ### Input Format
 The program reads standard input in the following format:
-\`\`\`text
+```text
 rows cols non_zero_count
 row col value
 ...
 operation (+, *, t)
-\`\`\`
+```
 
 #### Example
 **Input:**
-\`\`\`text
+```text
 10 100 2
 0 0 1
 9 99 2
 *
 2
-\`\`\`
+```
 
 **Output:**
-\`\`\`text
+```text
 Result:
 10 100 2
 0 0 2
 9 99 4
-\`\`\`
+```
 
 ## Academic Context
 
