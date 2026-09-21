@@ -40,7 +40,7 @@ The codebase was validated using automated JUnit 5 test suites:
 
 ## Repository Structure
 
-\`\`\`text
+```text
 ├── README.md
 ├── src/
 │   └── org/
